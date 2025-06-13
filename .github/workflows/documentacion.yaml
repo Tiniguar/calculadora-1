@@ -20,6 +20,11 @@ jobs:
 
     - name: Compilar
       run: dotnet build --no-restore
+
+    - name: Saludar
+      uses: Tiniguar/hello-world-action-by-andy-tiniguar@v1.0
+      with:
+        who-to-greet: 'Mona the Octocat'
       
   crear-pdf:
     runs-on: ubuntu-latest
