@@ -21,8 +21,8 @@ jobs:
     - name: Compilar
       run: dotnet build --no-restore
 
-    - name: Saludar
-      uses: Tiniguar/hello-world-action-by-andy-tiniguar@v1.0
+    - name: Hello World Action - by Andy Tiniguar
+      uses: Tiniguar/javascript-action-hello-word@v1.0
       with:
         who-to-greet: 'Mona the Octocat'
       
