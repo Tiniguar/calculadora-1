@@ -26,8 +26,8 @@ jobs:
 
     steps:
    
-    - uses: actions/check@v3
-    - uses: baileyjm@2/markdown-to-pdf@1
+    - uses: actions/checkout@v3
+    - uses: baileyjm02/markdown-to-pdf@v1
       with:
        input_dir: docs
        output_dir: pdfs
