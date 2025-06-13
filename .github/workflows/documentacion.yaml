@@ -1,6 +1,6 @@
 name: Compila y Genera PDF
 
-on push:
+on: push
 
 jobs:
   compila:
